@@ -1,0 +1,12 @@
+{
+  "name": "uptimeai-github-profile",
+  "private": true,
+  "version": "1.0.0",
+  "description": "GitHub profile page clone - React client",
+  "workspaces": ["client"],
+  "scripts": {
+    "dev": "npm run dev -w client",
+    "build": "npm run build -w client",
+    "preview": "npm run preview -w client"
+  }
+}
